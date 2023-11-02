@@ -1,0 +1,129 @@
+li {
+	list-style-type: roman;
+}
+.default-post {
+	color: #fff;
+	font-family: roboto;
+}
+
+.default-post-heading-tittle {
+	background-color: #444399;
+	padding: 5%;
+}
+
+.default-img-box, .default-img-post {
+	width: 100%;
+	background-color: #444399;
+}
+
+.default-paragraph-box {
+	margin: 10%;
+	width: 100%;
+	margin-left: 0%;
+	background-color: #444399;
+	color: #fff;
+
+}
+
+.default-paragraph-heading {
+
+	padding: 5%;
+	text-align: left;
+
+}
+
+.default-paragraph {
+
+	padding: 5%;
+
+	text-align: left;
+
+}
+
+.contents-container {
+	background-color: #fff;
+	color: #333;
+	width: 80%;
+	height: 60%;
+	position: fixed;
+	margin: 8%;
+	bottom: -100%;
+	overflow-y: auto;
+	border-bottom-right-radius: 10%;
+	border-top-left-radius: 10%;
+	transition: 0.3s;
+
+}
+.contents {
+	margin-left: %;
+	left: 0;
+	width: 99%;
+}
+li {
+	margin: 5%;
+	background-color: #eef;
+	padding: 3%;
+	left: 0;
+	margin-left: -5%;
+	border-radius: 3px;
+	font-size: 13px;
+}
+li:hover {
+	background-color: #eaa;
+	color: #fff;
+	transition: 0.5s;
+}
+
+/* Add a blink effect */
+.blink {
+	animation: blinker 2.9s linear infinite;
+}
+
+@keyframes blinker {
+	0% {
+		background-color: #eef;
+	}
+	50% {
+		background-color: #666;
+		/* Dark background color */
+	}
+	100% {
+		background-color: #eef;
+	}
+}
+
+.toggler {
+	position: fixed;
+	bottom: 1;
+	background-color: #eef;
+	color: #333;
+	width: 20%;
+	height: 5%;
+	text-align: center;
+	margin: 0;
+	right: 40%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-radius: 15px;
+}
+.closebtn {
+	transition: 0.3s;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: auto;
+	padding: 3%;
+	position: fixed;
+	bottom: 18%;
+	background-color: #eef;
+	width: 20%;
+	text-align: center;
+	margin: 0;
+	right: 36%;
+	background-color: #fe;
+	opacity: 0;
+	color: #333;
+}
+.closebtn:hover, .toggler:hover {
+	background-color: #eaa;
+	cursor: pointer;
+}
